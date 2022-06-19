@@ -1,0 +1,5 @@
+1.- Selectores de atributo
+https://developer.mozilla.org/es/docs/Web/CSS/Attribute_selectors 
+
+2.- Selectores combinadores, herencia, hermanos,etc
+https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Selectors/Combinators
