@@ -1,27 +1,18 @@
-h2,h3{
-	font-size: 20px;
-	font-family: 'Arial';
+body{
+	margin: 0px;
+}	
+.cabecera{
+	background: linear-gradient(15deg,#1363DF,#47B5FF,#DFF6FF);
+	text-align: right;
+	padding: 2px;
 }
 
-.contenedor a{
+.titulo{
+	text-align: center;
+	font font-family: 'Arial';
+}
+
+.main a{
 	text-decoration: none;
-	color: firebrick;
-}
-
-.contenedor p{
-	color: aqua;
-}
-
-.contenedor > a{
-	font-size: 20px;
-	font-weight: bold;
-
-}
-
-h2+p{
-	color: gold;
-}
-
-h3~p{
-	color: indigo;
+	margin: 10px;
 }
