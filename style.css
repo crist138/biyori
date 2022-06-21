@@ -1,18 +1,57 @@
 body{
 	margin: 0px;
+	padding: 0px;
+	background-image: url(fondos/fondo3.webp);
+	background-size: cover;
 }	
-.cabecera{
-	background: linear-gradient(15deg,#1363DF,#47B5FF,#DFF6FF);
-	text-align: right;
-	padding: 2px;
+
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	background: rgba(255, 99, 71, 0.4)	;
+	border-bottom: 1px solid #fff;
+}
+
+nav .logo{
+	padding: 20px 20px;
+	height: 20px;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: 'Arial';
+	color: white;
+}
+
+nav ul{
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li a{
+	font-family: 'Arial';
+	line height: 80px;
+	color: white;
+	padding: 12px 30px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	transition: .5s ;
+}
+
+nav ul li a:hover{
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 6px;
 }
 
 .titulo{
+	font-family: sans-serif;
 	text-align: center;
-	font font-family: 'Arial';
-}
-
-.main a{
-	text-decoration: none;
-	margin: 10px;
+	margin: 150px;
 }
