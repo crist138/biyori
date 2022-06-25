@@ -1,3 +1,5 @@
+@import	url("https://fonts.googleapis.com");
+
 body{
 	margin: 0px;
 	padding: 0px;
@@ -52,65 +54,14 @@ header ul li a:hover{
 }
 
 section{
-	margin: 150px;
-
+	margin: 120px;
 }
 
-.titulo{
-	font-family: monospace;
-	text-align: center;
+.su{
 	padding: 10px;
-	border: 5px solid #FFEBA2;
-	background: rgba(240, 240, 240, 0.4);
-	border-radius: 15px;
-	margin: 25px;
-	margin-left: 415px;
-	margin-right: 415px;
-	align-content: center;
-	-webkit-transition:all .5s ease;	
-}
-
-.titulo:hover{
-	transform:scale(1.05);
-	background: rgb(210, 210, 210);
-	transition: .5s ;
-
-}
-
-.wallpaper1{
-	margin: 5px;
-	width: 250px;
-	height: 255px;
-	border: 3px solid #b6d89c;
-	border-radius: 10px;
-	text-align: center;
-
-}
-
-.wallpaper1 h3{
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-bottom: 20px;
-	font-family: 'Arial';
-	color: white;
-}
-
-
-.wallpaper1 img{
-	border: 3px solid #92ccb6;
-	border-radius: 12px;
-	background: rgba(134, 255, 103, 0.2);
-	width: 120px;
-	height: 120px;
-	border-radius: 6px;
-	transition: .5s;
-}
-
-.wallpaper1 p{
-	font-family: Verdana;
-}
-
-.wallpaper1 img:hover{
-	transform: scale(1.15);
-	transition: .5s;
+	border: 15px solid #457B9D;
+	margin: 20px;
+	background-color: #f1faee;
+	outline: 10px solid;
+	outline-color: blue;
 }
