@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&family=Rubik&display=swap');
 
 *{
 	padding: 0;
@@ -68,9 +69,16 @@ section{
 .boxnews{
 	background-color: rgba(210, 210, 210, 0.4);
 	border: 5px solid black;
-	margin: auto;
+	margin: auto auto 100px auto;
 	border-radius: 15px;
 	width: 25%;
+	transition: .3s;
+}
+
+.boxnews:hover{
+	transform: scale(1.055);
+	background-color: rgba(210, 210, 210, 0.7);
+
 }
 
 .news{
@@ -99,3 +107,22 @@ section{
 	font-family: 'Poppins', sans-serif;
 	margin: 20px;
 }
+
+.leermasnew{
+	width: 50%;
+	border: 3px solid #762bc2;
+	border-radius: 15px;
+	margin: auto auto 10px auto;
+	transition: .3s;
+	background: white;
+}
+
+.leermasnew, h2{
+	font-family: 'Rubik', sans-serif;
+	text-align: center;
+}
+
+.leermasnew:hover{
+	background: rgba(255, 255, 255, 0.6);
+}
+
