@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
 
 *{
 	padding: 0;
@@ -62,14 +63,26 @@ header ul li a:hover{
 
 }
 
-section{
-	margin-top: 100px;
+.cajas{
+	display: flex;
 }
+
+.titleinicio{
+	margin: 80px auto 0px auto;
+	text-align: center;
+}
+
+.titleinicio, h1{
+	font-size: 50px;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
 
 .boxnews{
 	background-color: rgba(210, 210, 210, 0.4);
 	border: 5px solid black;
-	margin: auto auto 100px auto;
+	margin: 80px auto 100px auto;
 	border-radius: 15px;
 	width: 25%;
 	transition: .3s;
